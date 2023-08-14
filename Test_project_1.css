@@ -261,3 +261,55 @@ body {
     border-radius: 8px;
     font-size: 18px;
 }
+.sky2{
+    display: flex;
+}
+.container4{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+}
+.cooking{
+    margin-top: 100px;
+    width: 580px;
+}
+.cookbtn1 button{
+    background-color: #F2F6FA;
+    border-radius: 5px;
+    border: none;
+    font-size: 11px;
+    padding: 10px 18px;
+    
+}
+
+.cook{
+    font-size: 48px;
+}
+.cookList ul{
+        list-style-type: disc;
+        padding-left: 25px;
+    }
+    li{
+        font-size: 20px;
+        margin-top: 36px;
+    }
+::marker{
+    color: #5D6AFB;
+}
+.chef{
+    margin-top: 100px;
+}
+.chefPhoto{
+    position: absolute;
+    padding: 50px;
+}
+.chefBerry{
+    position: absolute;
+    margin-left: 100px;
+}
+.chefGrop{
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 1300px;
+}
