@@ -352,15 +352,18 @@ li {
     padding-top: 400px;
     padding-left: 1400px;
 }
-.berry5{
+
+.berry5 {
     margin-top: 360px;
     margin-left: 330px;
 }
-.berry6{
+
+.berry6 {
     margin-top: 280px;
     margin-left: 1650px;
 }
-.name{
+
+.name {
     position: absolute;
     margin-top: 400px;
     margin-left: 200px;
@@ -368,9 +371,10 @@ li {
     flex-direction: column;
     text-align: center;
     z-index: 5;
-    
+
 }
-.chefName{
+
+.chefName {
     font-size: 24px;
     padding: 15px 25px;
     background-color: #2E363E;
@@ -378,7 +382,8 @@ li {
     transform: skew(-13deg) scale(1);
     border-radius: 4px;
 }
-.yourChef{
+
+.yourChef {
     width: 225px;
     font-size: 18px;
     padding: 15px 0px;
@@ -386,4 +391,58 @@ li {
     color: #2E363E;
     transform: skew(-13deg) scale(1);
     border-radius: 4px;
+}
+.gallery{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-item{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 60%;
+}
+.gallery-item-1{
+    display: flex;
+    align-items: center;;
+}
+
+.bg1{
+    opacity: 10%;
+    background-color: #F2F6FA;
+    margin: 50px 64.5px;
+    height: 486px;
+    width: 934px;
+}
+.bg2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 460px;
+}
+.bg2{
+    background-color: #F2F6FA;
+    height: 615px;
+    width: 1180px;
+    display: flex;
+    justify-content: space-evenly
+}
+.text3{
+    margin: 24px 0px;
+    font-size: 30px;
+    color: #2E363E;
+}
+.text4{
+    font-size: 15px;
+    color: #2E363E;
+}
+.text5{
+    padding-top: 24px;
+    width: 25%;
+    font-size: 14px;
+    color: #4A94FF;
+    border-bottom: dotted #4A94FF;
 }
