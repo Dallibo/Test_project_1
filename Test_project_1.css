@@ -446,3 +446,9 @@ li {
     color: #4A94FF;
     border-bottom: dotted #4A94FF;
 }
+.reviews{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 48px;
+    color: #FFFFFF;
+}
