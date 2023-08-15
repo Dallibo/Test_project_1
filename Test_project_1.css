@@ -302,6 +302,7 @@ body {
 
 .cooking {
     margin-top: 100px;
+    margin-right: 150px;
     width: 580px;
 }
 
@@ -349,5 +350,40 @@ li {
 .chefGrop {
     position: absolute;
     padding-top: 400px;
-    padding-left: 1300px;
+    padding-left: 1400px;
+}
+.berry5{
+    margin-top: 360px;
+    margin-left: 330px;
+}
+.berry6{
+    margin-top: 280px;
+    margin-left: 1650px;
+}
+.name{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 5;
+    
+}
+.chefName{
+    font-size: 24px;
+    padding: 15px 25px;
+    background-color: #2E363E;
+    color: white;
+    transform: skew(-13deg) scale(1);
+    border-radius: 4px;
+}
+.yourChef{
+    width: 225px;
+    font-size: 18px;
+    padding: 15px 0px;
+    background-color: #F2F6FA;
+    color: #2E363E;
+    transform: skew(-13deg) scale(1);
+    border-radius: 4px;
 }
